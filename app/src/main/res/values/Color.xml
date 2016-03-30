@@ -1,0 +1,6 @@
+<resources>
+    <item name="red" type="color">#d32f2f</item>
+    <item name="pink" type="color">#c2185b</item>
+    <item name="blue" type="color">#1976d2</item>
+    <item name="teal" type="color">#00796b</item>
+</resources>
