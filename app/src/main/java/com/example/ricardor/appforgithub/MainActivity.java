@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
         lista = (ListView) findViewById(R.id.listviewOne);
         panelSuperior = (RelativeLayout) findViewById(R.id.panelSup);
         //---------contenido para el listview
-        String[] values = new String[]{"Red", "Blue","Teal","Pink"};
+        String[] values = new String[]{"Red", "Blue","Teal","Pink","Green","Yellow"};
         //---------creo un array para el listview
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, values);
         //-------ingreso arraylist al list view
@@ -51,8 +51,10 @@ public class MainActivity extends Activity {
                         panelSuperior.setBackgroundColor(Color.parseColor("#c2185b"));
                         break;
                     case 4:
+                        panelSuperior.setBackgroundColor(Color.parseColor("#4caf50"));
                         break;
                     case 5:
+                        panelSuperior.setBackgroundColor(Color.parseColor("#cddc39"));
                         break;
                     default:
                         break;
